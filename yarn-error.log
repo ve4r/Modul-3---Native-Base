@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\javie\AppData\Local\npm-cache\_npx\c094c3349f8dd527\node_modules\yarn\bin\yarn.js add expo
+
+PATH: 
+  C:\Users\javie\AppData\Local\npm-cache\_npx\c094c3349f8dd527\node_modules\.bin;D:\File Utama Javier\Kuliah\Semester 5\Perancangan Aplikasi Bergerak\Praktikum 5\modul-3-native-base\node_modules\.bin;D:\File Utama Javier\Kuliah\Semester 5\Perancangan Aplikasi Bergerak\Praktikum 5\node_modules\.bin;D:\File Utama Javier\Kuliah\Semester 5\Perancangan Aplikasi Bergerak\node_modules\.bin;D:\File Utama Javier\Kuliah\Semester 5\node_modules\.bin;D:\File Utama Javier\Kuliah\node_modules\.bin;D:\File Utama Javier\node_modules\.bin;D:\node_modules\.bin;C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Python311\Scripts\;C:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Users\javie\AppData\Local\Microsoft\WindowsApps;C:\Users\javie\AppData\Roaming\npm;C:\Users\javie\AppData\Roaming\Composer\vendor\bin;C:\Users\javie\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: read ECONNRESET
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+
+npm manifest: 
+  {
+    "name": "basic-core-component",
+    "version": "1.0.0",
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web"
+    },
+    "dependencies": {
+      "expo": "~49.0.13",
+      "expo-status-bar": "~1.6.0",
+      "native-base": "^3.4.28",
+      "react": "18.2.0",
+      "react-native": "0.72.5",
+      "react-native-safe-area-context": "4.6.3",
+      "react-native-svg": "13.9.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.20.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
